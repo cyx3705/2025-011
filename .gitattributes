@@ -1,0 +1,14 @@
+# LFS 规则：不到 100MB 的文件一律不走 LFS。
+# ≥100MB 的具体文件由下面的 HistoryJanus lfs 托管块逐条列出，其余行不得出现 filter=lfs。
+* text=auto
+
+b-EPLAN/N0000.edb/Images/EPLAN.jpg -text
+b-EPLAN/N0000.edb/Images/EPLAN_LOGO.BMP -text
+b-Module-2D/工程图.dwg -text
+b-Module-SE/0-装配体.asm -text
+b-Module-SE/0-装配体.cfg -text
+b-Module-SE/零件.par -text
+b-Module-SW/0-装配体.SLDASM -text
+b-Module-SW/零件.SLDPRT -text
+b-Office/作业.docx -text
+b-Office/资本化.pptx -text
